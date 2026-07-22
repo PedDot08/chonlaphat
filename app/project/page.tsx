@@ -13,7 +13,7 @@ export default function Project() {
 
                 <div className="lg:grid grid-cols-3 mt-2 gap-5">
 
-                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)]">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)] mb-5">
                         <div className="relative">
                             <img src="/image (1).png" alt="image" className="w-full h-[250px] object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent bg-black/20" />
@@ -31,7 +31,7 @@ export default function Project() {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)]">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)] mb-5">
                         <div className="relative">
                             <img src="/image (2).png" alt="image" className="w-full h-[250px] object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent bg-black/20" />
@@ -49,7 +49,7 @@ export default function Project() {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)]">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-[0px_1px_12px_rgba(0,0,0,0.06)] mb-5">
                         <div className="relative">
                             <img src="/image (3).png" alt="image" className="w-full h-[250px] object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent bg-black/20" />
@@ -71,7 +71,7 @@ export default function Project() {
 
             </main>
 
-            <footer className="absolute bottom-0 p-4 right-0 left-0 text-center">
+            <footer className="lg:absolute lg:bottom-0 p-4 lg:right-0 lg:left-0 text-center">
                 <p className="text-gray-500 text-sm">&copy; 2026 Chonlaphat. All rights reserved.</p>
             </footer>
         </div>
